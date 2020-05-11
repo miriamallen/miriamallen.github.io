@@ -179,6 +179,7 @@ button:focus,
   position: fixed;
   left: 0;
   background-color: lightgray;
+  background-color: lightpink; /* mir */
 }
 
 .right-col-block {
