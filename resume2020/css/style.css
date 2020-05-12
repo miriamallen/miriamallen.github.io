@@ -10,6 +10,7 @@
 
 body {
   font-family: "Hind", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.8em;
   color: #3d3d50;
@@ -38,7 +39,7 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.8em;
   font-weight: 700;
 }
@@ -178,8 +179,9 @@ button:focus,
   overflow: hidden;
   position: fixed;
   left: 0;
-  background-color: lightgray;
-  background-color: lightpink; /* mir */
+  background-color: #e6beae;
+
+  /* mir */
 }
 
 .right-col-block {
@@ -207,7 +209,11 @@ button:focus,
  * -------------------*/
 
 .gray-bg {
-  background-color: #f9f9f9;
+  background-color: #eee4e1;
+}
+
+.greige-bg {
+  background-color: #ecf8f8;
 }
 
 /* --------------------
@@ -241,6 +247,7 @@ button:focus,
 .section-title h2 {
   margin-bottom: 5px;
   color: #bebece;
+  color: #000;
 }
 
 /*-----------------------------
@@ -413,52 +420,6 @@ button:focus,
 }
 
 /*-------------------
- * Portfolio
- *-------------------*/
-
-.portfolio-item {
-  position: relative;
-  display: block;
-  margin-bottom: 30px;
-}
-
-.portfolio-item .portfolio-thumb img {
-  height: auto;
-  display: block;
-  max-width: 100%;
-}
-
-.portfolio-item .portfolio-info {
-  position: absolute;
-  bottom: 0;
-  padding: 30px 15px 5px;
-  width: 100%;
-  background: -webkit-linear-gradient(
-    top,
-    transparent 0%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
-}
-
-.portfolio-item .portfolio-info h3 {
-  margin: 0;
-  line-height: 1;
-  color: #ffffff;
-}
-
-.portfolio-item .portfolio-info small {
-  color: #ffffff;
-}
-
-.portfolio-item:hover .portfolio-info {
-  background: -webkit-linear-gradient(
-    top,
-    transparent 0%,
-    rgba(42, 84, 245, 0.5) 100%
-  );
-}
-
-/*-------------------
  * Content Item
  *-------------------*/
 
@@ -468,13 +429,16 @@ button:focus,
 
 .content-item h3 {
   margin: 0 0 10px;
+  margin-top: 24px;
+  margin-bottom: 4px;
   line-height: 1;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .content-item h4 {
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 4px;
   line-height: 1;
 }
 
