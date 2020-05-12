@@ -248,6 +248,7 @@ button:focus,
   margin-bottom: 5px;
   color: #bebece;
   color: #000;
+  color: #8b5d5d;
 }
 
 /*-----------------------------
@@ -312,6 +313,7 @@ button:focus,
 .header .content p {
   font-size: 18px;
   color: #ffffff;
+  color: #8b5d5d;
 }
 
 .header .btn {
@@ -482,6 +484,7 @@ button:focus,
 
 .footer {
   padding: 30px 50px;
+  background-color: #eee4e1;
 }
 
 .footer .copyright-section {
@@ -548,4 +551,12 @@ button:focus,
   cursor: pointer;
   background-color: none;
   color: grey;
+}
+
+hr.my-dots {
+  border-top: 10px dotted #eee4e1;
+  margin-left: 44%;
+  margin-right: 44%;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
