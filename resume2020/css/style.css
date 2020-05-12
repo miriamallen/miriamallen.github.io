@@ -533,3 +533,14 @@ button:focus,
   text-align: center;
   top: 65%;
 }
+
+.my-icons {
+  font-size: 12px;
+  color: rosybrown;
+}
+
+.reveal-details {
+  cursor: pointer;
+  background-color: none;
+  color: grey;
+}
