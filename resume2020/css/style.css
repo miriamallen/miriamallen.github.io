@@ -72,6 +72,9 @@ h6 {
  *------------------------------------------*/
 a {
   color: #2a54f5;
+  color: red;
+  color: darkgrey;
+  color: #572522;
   text-decoration: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -89,8 +92,7 @@ a:active {
 
 a:hover,
 a:focus {
-  text-decoration: none;
-  color: #2a54f5;
+  text-decoration: underline;
 }
 
 p {
@@ -246,8 +248,6 @@ button:focus,
 
 .section-title h2 {
   margin-bottom: 5px;
-  color: #bebece;
-  color: #000;
   color: #8b5d5d;
 }
 
